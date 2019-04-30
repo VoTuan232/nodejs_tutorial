@@ -1,0 +1,32 @@
+Hướng sự kiên, non-blocking model
+Là một platform cho phép chúng ta chạy JS trên computer/server
+Đọc, xóa, cập nhật file
+Dễ dàng giao tiếp với cơ sở dữ liệu
+
+*** Tại sao lại dùng Nodejs
+NÓ sử dụng JS
+Rất nhanh (chạy trên V8 Engine và sử dụng non-blocking code)
+NPM (thư viện mã nguồn mở lớn)
+Rất tốt khi tạo dịch vụ real-time(chat,...)
+
+*** Learn
+Trong Nodejs:
+	V8 Engine
+	Modules:
+	Event Emiiter
+	The file system
+*** Create a web server
+	Routing
+	Express
+	Templating
+*** Make a nodejs App
+
++Atom là một trình soạn thảo văn bản (và mã nguồn) miễn phí, mã nguồn mở, hỗ trợ các hệ điều hành Linux, Mac OS, Windows. Nó hỗ trợ các plugin để lập trình với NodeJS và nhúng Git-Control, phần mềm này được phát triển bởi GitHub.
++V8 Engine:
+	Máy tính ko hiểu JS
+	JS engine chuyển đổi js => máy tính có thể hiểu( machine code: mã máy)
+	JS => C/C++(V8 Engine, Nodejs) => Assembly language => Machine code
+
++Nodejs
+	Viết bằng C++
+	Trái tim là V8 Engine
