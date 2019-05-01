@@ -1,0 +1,8 @@
+***
+	Thay thế sql database
+	Lưu trữ json trong db, thay thế table cùng bảng, bản ghi
+	Làm việc tốt cùng javascripts( and nodjs)
+
+*** https://mlab.com/
+https://mlab.com/welcome/
+npm install mogoose --save

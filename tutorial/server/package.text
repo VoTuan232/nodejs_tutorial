@@ -1,3 +1,21 @@
 NPM Package Manager: npm install
 
 package.json: npm init
+
+Nodemon: refresh server
+	npm install nodemon -g
+	nodemon app.js to run server
+
+Express: app framework cung cấp nhiều tính năng web: http, middleware, route, template, ...
+	hệ thống route dễ dàng và linh hoạt
+	tích hợp nhiều teamplate engine
+	chứa một middleware framework
+	npm install express --save
+
+Ejs: js template engine
+	npm install ejs --save
+	<%= %>
+	Partical Template: <% include file %>
+
+body-parser: parse incoming request body in middleware before hander 
+	npm install body-parser
