@@ -1,0 +1,4 @@
+Giao thức: TCP/IP
+	Http: client-server, ko an toàn
+	Https: client-server, an toàn , trong giao dịch ngân hàng, dữ liệu cá nhân
+	Ftp: giao tiếp giữa các máy tính.

@@ -1,0 +1,17 @@
+*** Stream
+	Tạo stream trong node js để truyền dữ liệu
+	Tăng hiệu suất
+	***4 loại:
+		Writeable: cho phép nodejs ghi dữ liệu tới stream 
+		Readable: cho phép nodejs đọc dữ liệu từ stream
+		Duplex: có thể đọc và viết tới 1 stream
+	Là một sự thể hiện của EventEmitter và ném một vài sự kiện tại các thời điểm khác nhau 
+		*** Sự kiện:
+			data: được kích hoạt khi dữ liệu là có sẵn cho hoạt động đọc
+			end: kích hoạt khi ko còn dữ liệu để đọc
+			error: khi bất cứ lỗi trong quá trình đọc và ghi xảy ra
+			finish: khi tất cả dữ liệu đc chuyển tới vùng hệ thống cơ sở
+*** Buffer
+	Buffer chứa đầy đủ dữ liệu
+
+*** Pipe: kĩ thuật  mà kết quả đầu ra của một Stream để làm dữ liệu đầu vào cho một Stream khác
